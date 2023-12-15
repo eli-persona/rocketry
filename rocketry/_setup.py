@@ -28,9 +28,9 @@ def _setup_defaults():
         _FuncTaskCondWrapper
     )
     for cls_task in cls_tasks:
-        cls_task.update_forward_refs(Session=Session, BaseCondition=BaseCondition)
+        cls_task.model_rebuild()
 
-    Config.update_forward_refs(BaseCondition=BaseCondition)
+    Config.model_rebuild()
     #Session.update_forward_refs(
     #    Task=Task, Parameters=Parameters, Scheduler=Scheduler
     #)
