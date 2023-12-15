@@ -5,4 +5,4 @@ pytest-asyncio
 
 # Package requirements
 python-dateutil
-redbird
+redbird>=0.5.0

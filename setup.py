@@ -11,6 +11,6 @@ from setuptools import setup
 setup(
     name="rocketry",
     install_requires = [
-        'python-dateutil', 'redbird', 'pydantic'
+        'python-dateutil', 'redbird>=0.5.0', 'pydantic'
     ],
 )
