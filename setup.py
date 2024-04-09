@@ -13,7 +13,7 @@ setup(
     name="rocketry",
     install_requires=[
         "python-dateutil",
-        "redbird @ git+https://github.com/tekumara/red-bird.git@5e884da61abf1ef01d9a8ef0731ed89ea65964ab",
+        "redbird @ git+https://github.com/eli-persona/red-bird.git@5e884da61abf1ef01d9a8ef0731ed89ea65964ab",
         "pydantic",
     ],
 )
